@@ -1,0 +1,320 @@
+@import url(fonts/fontawesome-free-6.4.2-web/css/all.min.css);
+@font-face{
+    font-family:"fonts/static/Raleway-Bold.ttf" ;
+    src:url("fonts/Raleway-VariableFont_wght.ttf")format("ttf") ;
+    src:url("fonts/Raleway-Italic-VariableFont_wght.ttf") format(ttf);
+         }
+
+*{
+    margin: 0;
+}
+body{
+    font-family:"Raleway-Bold", Helvetica, sans-serif;
+    color:#444 ;
+    line-height: 1.5rem;
+    text-rendering: optimizeSpeed;
+    font-weight: 700;
+   
+} 
+.h1 h2 h3 h4 h5 h6{
+    font-family: Helvetica;
+   
+}
+a{
+    text-decoration: none;
+    color: #fffdfd;
+}
+
+.header h1{
+    float: left;
+    
+  
+}
+.nav{
+    text-align: right;
+    
+}
+.nav ul li{
+    display: inline; 
+    padding: 0 20px;
+  
+}
+
+.nav ul li a{
+    color: rgba(235, 235, 235, 0.986);
+    transition: color .2s ease-in-out;
+}
+nav.ul li a:hover{
+    color: #dac4fc;
+}
+.top-menu{
+    padding:20px;
+}
+
+.header{
+    background-image:url(img/bmw-i5-edrive40-2023.webp);
+    background-position: center center;
+    background-size: cover;
+    
+}
+.btn{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 0;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.5vw;
+    color: #d4d4d4 !important;
+
+}
+.btn-gray{
+    background-color: #f5efff;
+    color: rgb(255, 255, 255) !important; 
+}
+.btn-blue{
+    background-color: rgb(33, 137, 185);
+    color: #f5efff;
+}
+.btn-big{
+    font-size: 1.5vw !important;
+
+}
+.btn-dark{
+    background-color: rgb(114, 116, 250);
+    color: #f5efff !important;
+}
+.baner-content{
+    text-align: center;
+    color: #f0f0f0;
+    padding: 150px 0;
+}
+.baner-content h2{
+    font-size: 3vw;
+    line-height:140px;
+}
+.baner-content p{
+    font-size:2vw ;
+    margin-bottom: 50px;
+    line-height: 43px;
+}
+
+/*#------------------------------->*/
+.min header p{
+    line-height: normal;
+}
+.servises{
+    background-color: #dadada;
+    color: rgb(148, 139, 139);
+    border-bottom:rgb(214, 211, 211) ; 
+    border-top:rgb(53, 51, 51) ;
+    padding: 100px;
+    text-align: center;
+}
+.servis-heder{
+    margin-bottom:50px ;
+}
+.servis-heder h2{
+    font-size: 20px;
+    color: rgb(66, 66, 66);
+    margin-bottom: 13px;
+  
+}
+.servis-heder{
+    font-size: 22px;
+    color: #696464;
+    
+
+}
+
+/* ------------------------------------- */
+.icon::before{
+    font-family: FontAwesome ;
+    font-style: normal;
+    font-weight: normal;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: var(--fa-display, inline-block);
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto; 
+}
+.color-blue{
+    background-color: rgb(171, 171, 228);
+    color: #f5efff;
+}
+.color-green{
+    background-color:rgb(45, 73, 2);
+    color: #fffdfd ;
+}
+.color-red{
+    background-color:rgb(243, 24, 24);
+    color: #f5efff ;
+}
+.big{
+    font-size: 40px;
+    padding: 35px;
+}
+.rounded{
+    border-radius: 100%;
+}
+.servis-contant>*{
+    float: left;
+}
+.box{
+    background-color: rgb(241, 241, 241);
+   padding: 70px 20px;
+   border-radius: 4px;
+   width:calc(calc(100% / 3)-82);
+   border: 1px solid rgb(255, 246, 246);
+   margin: 0 10px;
+}
+.servis-contant::before ,
+.servis-contant::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.box h4{
+    background-color: #f0eeee;
+    font-size: 20px;
+    margin: 60px 0 30px 0;
+}
+.box p{ 
+    line-height: 25px;
+}
+.servis-contant{
+  width: 85%;
+  margin: 0 auto;
+}
+@media only screen and(max-width:850px ){
+    .box{
+
+  
+     width: 100%;
+     padding: 60px 0 ;
+     margin: 10px o;
+}
+}
+
+.about {
+    text-align: center;
+    padding: 100px 0 ;
+
+}
+.about-heder h2{
+    font-size: 42px;
+    color: #474747;
+    margin-bottom: 12px;
+}
+.about-heder P{
+    font-size: 22PX;
+    color: #858585;
+}
+.about-content{
+    border-bottom: 1px solid rgba(144, 144, 144, 0.25);
+    border-top: 1px solid rgba(144, 144, 144, 0.25); ;
+    margin: 60px auto;
+    width: 90%;
+    padding-top: 60px;
+}
+.about-content>*{
+    float: left;
+}
+.about-content::after,
+.about-content::before{
+    content:"";
+    display: block;
+    clear: both;
+    margin-left: auto;
+}
+.profil{
+    width:15%;
+    padding: 60px;
+}
+.profil img{
+    float: left;
+    border-radius: 50%;
+}
+.profil h4{
+    margin-top: 35px;
+}
+.profil p{
+    line-height: 25px;
+}
+.about-footer p{
+    line-height: 25px;
+    font-size: 15px;
+    margin-bottom: 40px;
+
+}
+.about-footer{
+    width: 70%;
+    margin: 0 auto;
+}
+/* ------------------- */
+.contact{
+    background-color: #3cadd4 ;
+    color: #ffffff;
+    padding: 100px 0;
+
+}
+.contact-heder{
+    text-align: center;
+
+
+}
+.contact-heder h2{
+    font-size:40px;
+    margin-bottom: 20px;
+}
+.contact-heder p{
+    font-size: 20px;
+}
+.contact-content{
+    text-align: center;
+}
+input[type="text"],
+input[type="email"] {
+    background-color: #fff;
+    color: #444;
+    border: none;
+    border-radius: 4px;
+    padding: 15px 11px;
+    width: 25%;
+
+}
+textarea{
+    background-color: #fff;
+    color: #444;
+    border: none;
+    border-radius: 34px;
+    height: 150px;
+    padding: 15px 15px;
+    box-sizing:content-box;
+    width: 70%;
+    margin-top: 20px;
+  
+}
+.contact-content button{
+     /* text-shadow: #474747; */
+     text-align: justify;
+     margin-top: 20px;
+  
+}
+::placeholder{
+    color: #858585 !important;
+    font-size: 15px;
+    font-family: "Raleway-Bold";
+}
+.footer{
+    background-color:#383b43  ;
+    padding:  100px o;
+}
+.copyrith li{
+    color: #858585;
+    display: inline;
+    font-size: 15px;
+    margin: 0 5px;
+
+}
